@@ -28,3 +28,12 @@ const purceseCustomer = 5;
 const SubTotal = TopTenMartTshart * purceseCustomer;
 console.log(SubTotal);
 
+// Design a card include name,id,hight,wight,country,role
+const PersonName = 'Md. Naim Zomaddar';
+const PersonID = 12421042;
+const PersonHight = 5.6;
+const PersonWight = 56.4;
+const PersonCountry = 'Bangladesh';
+const isStudent = true; 
+
+console.log('Name: ' + PersonName + '\nID: ' + PersonID + '\nHight: ' + PersonHight + '\nWight:' + PersonWight + '\nCountry: ' + PersonCountry + '\nIs Student: ' + isStudent);
